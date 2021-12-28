@@ -76,7 +76,9 @@ a {
 
 
 .container {
-    max-width: 1440px;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -113,11 +115,21 @@ a {
 
 .header p {
     font-size: 1.375rem;
+    max-width: 33rem;
+}
+
+.intro {
+    max-width: 69.5rem;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 .main {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    max-width: 69.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.overheading {
@@ -146,5 +158,3 @@ ul {
 .project-link {
     margin-top: 2rem;
 }
-
-
