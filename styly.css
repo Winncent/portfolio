@@ -30,7 +30,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 1.225rem;
+    margin-bottom: 0;
 }
 
 h1,
@@ -157,4 +157,28 @@ ul {
 
 .project-link {
     margin-top: 2rem;
+    margin-bottom: 0;
 }
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 2.6rem;
+}
+.project-switch {
+    flex-direction: row-reverse;
+}
+.text-project {
+    max-width: 26rem;
+}
+P {
+    margin-top: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
