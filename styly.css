@@ -4,7 +4,6 @@ body {
     /* background-image: url(pic1.png); 
     background-repeat: no-repeat;
     background-position: 400px 0px; */
-    
 }
 .container {
     mix-blend-mode: exclusion;
@@ -22,9 +21,9 @@ html {
 
 body {
     color: white;
-    background-color: #0B1D26;
+    background-color: #0b1d26;
     margin: 0;
-    background-image: linear-gradient(0, #364A4F 0, rgba(54, 74, 79, 0) 200px);
+    background-image: linear-gradient(0, #364a4f 0, rgba(54, 74, 79, 0) 200px);
 }
 
 img {
@@ -71,9 +70,8 @@ li::marker {
 }
 
 a {
-    color: #FBD784;
+    color: #fbd784;
 }
-
 
 .container {
     max-width: 90rem;
@@ -87,7 +85,7 @@ a {
     background-size: 378%;
     background-color: white;
     background-repeat: no-repeat;
-    color: #0B1D26;
+    color: #0b1d26;
     min-height: 44rem;
     padding: 1.25rem;
 }
@@ -121,7 +119,7 @@ a {
 .intro {
     max-width: 69.5rem;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 .main {
@@ -133,21 +131,21 @@ a {
 }
 
 p.overheading {
-    color: #FBD784;
+    color: #fbd784;
     font-size: 1rem;
     line-height: 1.25;
     text-transform: uppercase;
-    letter-spacing: 0.375em; 
+    letter-spacing: 0.375em;
     padding-top: 0.375rem;
     padding-bottom: 0.375rem;
     padding-left: 1rem;
-    border-left: 2px solid #FBD784;
+    border-left: 2px solid #fbd784;
     margin-top: 4.125rem;
 }
 
 p.overheading-header {
-    color: #0B1D26;
-    border-left-color: #0B1D26;
+    color: #0b1d26;
+    border-left-color: #0b1d26;
     margin-top: 2.25rem;
 }
 
@@ -166,12 +164,16 @@ ul {
     column-gap: 3rem;
     row-gap: 2.6rem;
 }
+
 .project-switch {
     flex-direction: row-reverse;
+    justify-content: flex-end;
 }
+
 .text-project {
     max-width: 26rem;
 }
+
 P {
     margin-top: 0;
 }
@@ -179,6 +181,18 @@ P {
 .navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    max-width: 18rem;
 }
 
+@media only screen and (min-width: 470px) {
+    .navigation {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .navigation {
+        justify-content: flex-end;
+    }
+}
